@@ -8,7 +8,7 @@ module.exports = {
   },
   devtool: 'cheap-eval-source-map',
   output: {
-    path: path.join(__dirname, 'site/static'),
+    path: path.join(__dirname, 'site/static/bundles'),
     filename: 'bundle.js'
   },
   resolve: {
